@@ -1,0 +1,54 @@
+<?php 
+session_start();
+if (!isset($_SESSION['id'])) {
+  header("Location:home.php");
+} ?>
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>NSBM LMS</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" type="text/css" href="computing.css">
+</head>
+<body>
+<div class=" nav ">
+
+<div class="transbox2 divnew" >
+<h1  style="color:white;" ><b><center> School Of Management </center></b></h1><br>
+</div>
+<div class="main transbox divnew">
+<div class=" nav ">
+<div class="pages">
+<div class=" nav_wrapper ">
+<a class="pg" href="index.html">NSBM</a> <b>||||</b>
+<a class="pg" href="#">Courses</a> <b> ||||</b>
+<a class="pg" href="management.html">School Of Management</a><br>
+</div>
+<div class="logininfo">You are logged in as<a href="#"></a>
+(<a href="#">Logout</a>)</div><br>
+<h3> Sub-Categories </h3>
+<div class="years">
+<p><b><a href="pgdmanagement.html"> PGD</a></b></p>
+<p><b><a href="#"> UCD</a></b></p>
+<p><b><a href="#"> UGC</a></b></p>
+<p><b><a href="#"> MSC</a></b></p>
+<p><b><a href="#"> Foundation</a></b></p>
+<p><b><a href="#"> PLYMOUTH</a></b></p>
+</div>
+<div class="search">
+<b>Search Courses:</b> <input type="text" name="sc" id="sc">
+<input type="button" name="go" id="go" value="GO">
+</div><br>
+<div class="copyright">
+<p>Copyright @ National School of Business Management No 309, High Level Road, Colombo 05, Sri Lanka. <br /> Telephone: +94(11) 567 2545|5673535 - Email:info@nsbm.lk</p></div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+</body>
+</html>

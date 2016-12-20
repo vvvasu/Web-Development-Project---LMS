@@ -1,0 +1,84 @@
+<?php 
+session_start();
+if (!isset($_SESSION['id'])) {
+  header("Location:home.php");
+} ?>
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>NSBM LMS</title>
+<link rel="stylesheet" type="text/css" href="year0.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+</head>
+<body>
+
+<div class="pages">
+<a class="pg" href="index.html">NSBM</a> <b>||||</b>
+<a class="pg" href="#">Courses</a> <b> ||||</b>
+<a class="pg" href="computing.html">School Of Computing</a><br>
+</div>
+<div class="logininfo">You are logged in as<a href="#"></a>
+(<a href="#">Logout</a>)</div><br>
+<h1>PGD</h1>
+<div class="y0sub">
+<table border="1"  width="40%" align="center">
+<tr>
+<th>Module Code</th>
+<th>Module Name</th>
+</tr>
+<tr>
+<td>PGDCN1309</td>
+<td><a href="#"> Network Security </a></td>
+</tr>
+<tr>
+<td>PGDCN1207 </td>
+<td><a href="#">  Service Provider Networks</a></td>
+</tr>
+<tr>
+<td>PGDCN4569</td>
+<td><a href="#"> Time Tables and Programme Information </a></td>
+</tr>
+<tr>
+<td>PGDCN1104 </td>
+<td><a href="#"> Network Planning Implementing and Administration	</a></td>
+</tr>
+<tr>
+<td>PGDCN1208</td>
+<td><a href="#">  Network Operations</a> </td>
+</tr>
+<tr>
+<td> PGDCN1206</td>
+<td><a href="#"> Wireless Communication</a></td>
+</tr>
+<tr>
+<td>  BMIS209</td>
+<td><a href="#"> Object Oriented Programming II </a></td>
+</tr>
+<tr>
+<td>PGDCN1101 </td>
+<td><a href="#">  Computer Network Design</a></td>
+</tr>
+<tr>
+<td>PGDCN1102</td>
+<td><a href="#">Netowrk Models and TCP/IP</a></td>
+</tr>
+<tr>
+<td>PGDCN1103</td>
+<td><a href="#">Routing and Switching</a></td>
+</tr>
+<tr>
+<td>PGDCN1205</td>
+<td><a href="#">Voice and Telephony Techniques</a></td>
+</tr>
+<tr>
+<td>PGDCN1310</td>
+<td><a href="#">Disaster Recovery and High Availability Techniques</a></td>
+</tr>
+</table>
+<div class="copyright">
+<p>Copyright @ National School of Business Management No 309, High Level Road, Colombo 05, Sri Lanka. <br /> Telephone: +94(11) 567 2545|5673535 - Email:info@nsbm.lk</p></div>
+</div>
+</body>
+</html>

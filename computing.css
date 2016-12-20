@@ -1,0 +1,15 @@
+
+body { background-image: url(tt.jpg); //border: 2px solid blueviolet;}
+div.transbox2{margin: 10px; background-color: #663399; border: 1px solid blue;opacity:0.5;filter:alpha(opacity=60); /* For IE8 and earlier */}
+.divnew{-webkit-animation: myfirst 30s linear 2s infinite alternate; /* Chrome, Safari, Opera */animation: myfirst 30s linear 2s infinite alternate;}
+.nav_wrapper{width: 100%; margin: 0 auto; text-align: left;}
+body { background-image: url(tt.jpg); //border: 2px solid blueviolet;}
+.years{text-align: center;}
+h3{text-align: center;}
+.search{text-align: center;}
+a{text-decoration: none;}
+h3{font-weight: bold;font-family: arial;color:black;}
+.copyright{text-align: center;}
+.logininfo{text-align: right;}
+.pages{text-decoration: none;color:black;}
+.pg{color: #ff0066;}

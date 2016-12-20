@@ -1,0 +1,37 @@
+<?php 
+session_start();
+if (!isset($_SESSION['id'])) {
+  header("Location:home.php");
+} ?>
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>NSBM LMS</title>
+<link rel="stylesheet" type="text/css" href="year0.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+</head>
+<body>
+<div class="pages">
+<a class="pg" href="index.html">NSBM</a> <b>||||</b>
+<a class="pg" href="#">Courses</a> <b> ||||</b>
+<a class="pg" href="computing.html">School Of Computing</a><br>
+</div>
+<div class="logininfo">You are logged in as<a href="#"></a>
+(<a href="#">Logout</a>)</div><br>
+<ul><h1>Degrees Offered By Plymouth University UK</h1>
+<li><a href="#"> B Sc in MIS (Special) Batch-3  </a></li>
+<li><a href="#">   BSc in MIS (Special) Batch-2 </a></li>
+<li><a href="#"> BSc in MIS (UGC) 13-1   </a></li>
+<li><a href="#">  BSc in MIS (UGC) 13-2 </a></li>
+<li><a href="#">  BSc in MIS (UGC) 14-1  </a></li>
+<li><a href="#">BSc in Web Design and Technology 13-1  </a></li>
+<li><a href="#">  BA in Multimedia (Limkokwing) 13-1 </a></li>
+<li><a href="#"> BA in Multimedia (Limkokwing) 13-2 </a></li>
+</ul>
+<div class="copyright">
+<p>Copyright @ National School of Business Management No 309, High Level Road, Colombo 05, Sri Lanka. <br /> Telephone: +94(11) 567 2545|5673535 - Email:info@nsbm.lk</p></div>
+</div>
+</body>
+</html>

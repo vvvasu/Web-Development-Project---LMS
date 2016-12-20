@@ -1,0 +1,66 @@
+<?php 
+session_start();
+if (!isset($_SESSION['id'])) {
+  header("Location:home.php");
+} ?>
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>NSBM LMS</title>
+<link rel="stylesheet" type="text/css" href="year0.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+</head>
+<body>
+<div class="pages">
+<a class="pg" href="index.html">NSBM</a> <b>||||</b>
+<a class="pg" href="#">Courses</a> <b> ||||</b>
+<a class="pg" href="computing.html">School Of Computing</a><br>
+</div>
+<div class="logininfo">You are logged in as<a href="#"></a>
+(<a href="#">Logout</a>)</div><br>
+<h1>Year 4</h1>
+<table border="1"  width="40%" align="center">
+<tr>
+<th>Module Code</th>
+<th>Module Name</th>
+</tr>
+<tr>
+<td>BMIS405</td>
+<td><a href="#"> Business Policy and Strategy</a></td>
+</tr>
+<tr>
+<td> BMIS406</td>
+<td><a href="#"> Professional Issues in ICT</a></td>
+</tr>
+<tr>
+<td> BMIS407</td>
+<td><a href="#"> Software Quality Assurance </a></td>
+</tr>
+<tr>
+<td>BMIS408</td>
+<td><a href="#"> Final Project </a></td>
+</tr>
+<tr>
+<td>BMIS404 </td>
+<td><a href="#"> Object Oriented Programming III</a> </td>
+</tr>
+<tr>
+<td>BMIS403 </td>
+<td><a href="#"> Information Security</a></td>
+</tr>
+<tr>
+<td> BMIS402</td>
+<td><a href="#"> Technical Communication </a></td>
+</tr>
+<tr>
+<td> BMIS401</td>
+<td><a href="#"> Management Support Systems</a></td>
+</tr>
+</table>
+<div class="copyright">
+<p>Copyright @ National School of Business Management No 309, High Level Road, Colombo 05, Sri Lanka. <br /> Telephone: +94(11) 567 2545|5673535 - Email:info@nsbm.lk</p></div>
+</div>
+</body>
+</html>

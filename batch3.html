@@ -1,0 +1,99 @@
+<?php 
+session_start();
+if (!isset($_SESSION['id'])) {
+  header("Location:home.php");
+} ?>
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>NSBM LMS BATCH03</title>
+<link rel="stylesheet" type="text/css" href="year0.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+</head>
+<body>
+<div class="pages">
+<a class="pg" href="index.html">NSBM</a> <b>||||</b>
+<a class="pg" href="#">Courses</a> <b> ||||</b>
+<a class="pg" href="management.html">School Of Management</a><br>
+</div>
+<div class="logininfo">You are logged in as<a href="#"></a>
+(<a href="#">Logout</a>)</div><br>
+<h1>BATCH-03</h1>
+<table border="1"  width="40%" align="center">
+<tr>
+<th>Module Code</th>
+<th>Module Name</th>
+</tr>
+<tr>
+<td>PGDHRM1210</td>
+<td><a href="#">Organizational Change &amp Development</a></td>
+</tr>
+<tr>
+<td>PGDHRM1209</td>
+<td><a href="#">Human Resource Information Systems</a></td>
+</tr>
+<tr>
+<td>PGDHRM1208</td>
+<td><a href="#">Human Resource Development</a></td>
+</tr>
+<tr>
+<td>PGDHRM1207</td>
+<td><a href="#">Employment Law &amp Labour Relations</a></td>
+</tr>
+<tr>
+<td>PGDHRM1206</td>
+<td><a href="#">Introduction to HRM and Employee Resourcing</a></td>
+</tr>
+<tr>
+<td>PGDBM1210</td>
+<td><a href="#">Business Statistics</a></td>
+</tr>
+<tr>
+<td>PGDBM1209</td>
+<td><a href="#">Management Information Systems</a></td>	
+</tr>
+<tr>
+<td>PGDBM1208</td>	
+<td><a href="#">Financial Management</a></td>
+</tr>
+<tr>
+<td>PGDBM1207</td>	
+<td><a href="#">Marketing Management</a></td>
+</tr>
+<tr>
+<td>PGDBM1206</td>	
+<td><a href="#">Managing People</a></td>
+</tr>
+<tr>
+<td>PGDCOM1105</td>	
+<td><a href="#">Managerial Economics</a></td>
+</tr>
+<tr>
+<td>PGDCOM1104</td>	
+<td><a href="#">Organizational Behavior</a></td>
+</tr>
+<tr>
+<td>PGDCOM1103</td>	
+<td><a href="#">Accounting for Decision Making</a></td>
+</tr>
+<tr>
+<td>PGDCOM1102</td>	
+<td><a href="#">Business Communication</a></td>
+</tr>
+<tr>
+<td>PGDCOM1101</td>	
+<td><a href="#">Managing Organizations</a></td>
+</tr>
+</table><br>
+<div class="search">
+<b>Search Courses:</b> <input type="text" name="sc" id="sc">
+<input type="button" name="go" id="go" value="GO">
+</div><br>
+<div class="copyright">
+<p>Copyright @ National School of Business Management No 309, High Level Road, Colombo 05, Sri Lanka. <br /> Telephone: +94(11) 567 2545|5673535 - Email:info@nsbm.lk</p></div>
+
+
+</body>
+</html>

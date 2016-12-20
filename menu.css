@@ -1,0 +1,21 @@
+body { background-image: url(tt.jpg)}
+div.transbox2{margin: 10px; background-color: #663399; border: 1px solid blue;opacity:0.5;filter:alpha(opacity=60); /* For IE8 and earlier */}
+.divnew{-webkit-animation: myfirst 30s linear 2s infinite alternate; /* Chrome, Safari, Opera */animation: myfirst 30s linear 2s infinite alternate;}
+.nav_wrapper{width: 100%; margin: 0 auto; text-align:center;}
+.pages{text-decoration: none;
+       color:black;
+       text-align:center}
+.pg{color: #ff0066;}
+
+a{text-decoration: none;}
+
+
+h1 {
+    color:white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-align: center;}
+th:hover{
+    color: #8B008B ;
+    text-align: center;}
+.copyright{
+    text-align: center;}
